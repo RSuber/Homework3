@@ -1,26 +1,87 @@
 header {
-  width:100%;
-  background-color:#39FF4F;
-  height: 75px;
-
+display:inline-block;
 }
-header h4 {
-  font-size: 2em;
-  color:#fff;
-  margin:0;
-  margin-left: 0%;
-  display: inline-block;
-  padding-top:
+header img {
+  width: 86em;
+  height: 38em;
+  position: relative;
+  left: -1em;
+  top: -1em;
 }
-
-header ul {
-  display: inline-block;
-  float: right;
-  font-size: 1.3em;
-  margin-right: 2%;
-
-}
-header li {
+aside {
   display:inline-block;
+  width: 29%;
+  position: relative;
+  top: 8em;
+}
+.body {
+  display: inline-block;
+  width: 70%;
+  float:left;
+}
+aside .profile-image img {
+  width:43%;
+}
 
+
+.profile-image .links {
+  position:relative;
+    top:-1em;
+    right:3em;
+}
+.random-image {
+position: relative;
+top: -8em;
+right: -3em;
+}
+.sidebar-section-heading {
+position: relative;
+bottom: 8em;
+width: 17em;
+height: 30em;
+}
+.profile-image {
+  width: 54%;
+    position: relative;
+    top: -8em;
+    right: -3em;
+}
+.Header {
+  width:62em;
+}
+img {
+  width: 335px;
+}
+div.profile-image2 {
+  width:20em;
+}
+.profile-image2 img {
+
+  width:40px;
+}
+.Header h4 {
+  position:relative;
+  right: -3em;
+  top:-38px;
+}
+.random-image img {
+  width: 14em;
+  position: relative;
+  right: 3em;
+}
+
+footer {
+  display:inline-block;
+  width: 90em;
+  position:relative;
+  top:20em;
+}
+.Bottom-border {
+  height: 10em;
+  width: 85em;
+  background-color: aliceblue;
+}
+.Bottom-border p1 {
+  position: relative;
+  top: 8em;
 }
